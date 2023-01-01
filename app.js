@@ -38,7 +38,7 @@ function addMessageToPage(message) {
     messagesElement.append(element);
 }
 async function init(){
-const { data: prvi_zadatak, error } = await supabase
+const { data: prvi_zadatak, error } = await client
   .from('prvi_zadatak')
   .select('*')
 prvi_zadatak.forEach(addMessageToPage);
