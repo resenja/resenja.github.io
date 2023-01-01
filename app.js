@@ -56,5 +56,5 @@ function dodajBrojOdgovora() {
     else s += "Answer";
     document.querySelector('#broj-odgovora').append(s);
 }
-init();
+//init();
 dodajBrojOdgovora();
