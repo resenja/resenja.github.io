@@ -48,6 +48,7 @@ function dodajBrojOdgovora() {
     if (i != 1) s += "Answers";
     else s += "Answer";
     document.querySelector('#broj-odgovora').append(s);
+    console.log(s);
 }
 init();
 dodajBrojOdgovora();
