@@ -5,6 +5,10 @@ const messagesElement = document.querySelector('#poruke');
 
 function addMessageToPage(message) {
     i++;
+    let text = message.poruka;
+    text = text.replace('&','&amp;');
+    text = text.replace('<','&lt;');
+    text = text.replace('>','&gt;');
     const element = document.createElement('div');
     element.innerHTML = `
 <div>
@@ -26,7 +30,7 @@ function addMessageToPage(message) {
 <div class="answercell post-layout--right">
     
     <div class="s-prose js-post-body" itemprop="text">
-<pre class="lang-cs s-code-block"><code class="hljs language-csharp">${message.poruka}</code></pre>
+<pre class="lang-cs s-code-block"><code class="hljs language-csharp">${text}</code></pre>
     </div>
     
     
