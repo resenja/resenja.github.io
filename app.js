@@ -1,7 +1,7 @@
-const supabase = createClient(
-    'https://qrpjxxnyavsvmdbypowt.supabase.co',
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFycGp4eG55YXZzdm1kYnlwb3d0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzI1ODY5NjAsImV4cCI6MTk4ODE2Mjk2MH0.XAG8M4YLwVpGdA5H0qLa_SgFuUNuR9rldwe94DuPf3o'
-    );
+
+
+// Create a single supabase client for interacting with your database
+const supabase = SupabaseClient.createClient('https://qrpjxxnyavsvmdbypowt.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFycGp4eG55YXZzdm1kYnlwb3d0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzI1ODY5NjAsImV4cCI6MTk4ODE2Mjk2MH0.XAG8M4YLwVpGdA5H0qLa_SgFuUNuR9rldwe94DuPf3o')
 
 let i = 0;
 const messagesElement = document.querySelector('#poruke');
@@ -24,16 +24,12 @@ function addMessageToPage(message) {
             <svg aria-hidden="true" class="svg-icon iconArrowDownLg" width="36" height="36" viewBox="0 0 36 36"><path d="M2 11h32L18 27 2 11Z"></path></svg>
         </button><div id="--stacks-s-tooltip-8fkmzjt0" class="s-popover s-popover__tooltip" role="tooltip">This answer is not useful<div class="s-popover--arrow"></div></div>
 </div>
-
         </div>
-
         
-
 <div class="answercell post-layout--right">
     
     <div class="s-prose js-post-body" itemprop="text">
 <pre class="lang-cs s-code-block"><code class="hljs language-csharp">${message.poruka}</code></pre>
-
     </div>
     
     
@@ -56,5 +52,5 @@ function dodajBrojOdgovora() {
     else s += "Answer";
     document.querySelector('#broj-odgovora').append(s);
 }
-//init();
 dodajBrojOdgovora();
+init();
