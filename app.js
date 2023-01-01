@@ -49,6 +49,7 @@ function dodajBrojOdgovora() {
     else s += "Answer";
     document.querySelector('#broj-odgovora').append(s);
     console.log(s);
+    console.log(i);
 }
 init();
 dodajBrojOdgovora();
