@@ -32,9 +32,7 @@ function addMessageToPage(message) {
 <div class="answercell post-layout--right">
     
     <div class="s-prose js-post-body" itemprop="text">
-<pre class="lang-cs s-code-block"><code class="hljs language-csharp">
-${message.poruka}
-</code></pre>
+<pre class="lang-cs s-code-block"><code class="hljs language-csharp">${message.poruka}</code></pre>
 
     </div>
     
