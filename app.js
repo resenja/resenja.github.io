@@ -58,5 +58,5 @@ function dodajBrojOdgovora() {
     else s += "Answer";
     document.querySelector('#broj-odgovora').append(s);
 }
-addMessageToPage("aaa");
+init();
 dodajBrojOdgovora();
