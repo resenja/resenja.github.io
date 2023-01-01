@@ -1,10 +1,10 @@
 let i = 0;
 const messagesElement = document.querySelector('#poruke');
 
-function addMessageToPage(message){
-i++;
-const element = document.createElement('div')
-element.innerHTML = `
+function addMessageToPage(message) {
+    i++;
+    const element = document.createElement('div')
+    element.innerHTML = `
 <div>
     <div class="post-layout">
         <div class="votecell post-layout--left">
@@ -40,13 +40,18 @@ I OVDE
 </div>
 <div class="d-flex fw-wrap pb8 mb16 bb bc-black-075"></div>
 </div>`;
-messagesElement.append(element);
+    messagesElement.append(element);
 }
-function dodajBrojOdgovora(){
- let s = i + " ";
- if(i!=1)s += "Answers";
- else s += "Answer";
- document.querySelector('#broj-odgovora').append(s);
+async function init(){
+const { data: prvi_zadatak, error } = await supabase
+  .from('prvi_zadatak')
+  .select('*')
+}
+function dodajBrojOdgovora() {
+    let s = i + " ";
+    if (i != 1) s += "Answers";
+    else s += "Answer";
+    document.querySelector('#broj-odgovora').append(s);
 }
 addMessageToPage("aaa");
 dodajBrojOdgovora();
