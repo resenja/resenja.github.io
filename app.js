@@ -32,10 +32,9 @@ function addMessageToPage(message) {
 <div class="answercell post-layout--right">
     
     <div class="s-prose js-post-body" itemprop="text">
-<pre class="lang-cs s-code-block"><code class="hljs language-csharp">TEXT OVDE
-
-I OVDE
-</code></pre
+<pre class="lang-cs s-code-block"><code class="hljs language-csharp">
+${message.poruka}
+</code></pre>
 
     </div>
     
@@ -51,6 +50,7 @@ async function init(){
 const { data: prvi_zadatak, error } = await supabase
   .from('prvi_zadatak')
   .select('*')
+prvi_zadatak.forEach(addMessageToPage);
 }
 function dodajBrojOdgovora() {
     let s = i + " ";
