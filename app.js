@@ -48,10 +48,10 @@ const { data: messages, error } = await client
   .select('*')
 .eq('page',1)
 messages.forEach(addMessageToPage);
-addAnswerNumber();
+addNumberOfAnswers();
 textareaElement.value ='';
 }
-function addAnswerNumber() {
+function addNumberOfAnswers() {
     let s = i + " ";
     if (i != 1) s += "Answers";
     else s += "Answer";
