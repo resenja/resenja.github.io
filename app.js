@@ -55,7 +55,7 @@ function addAnswerNumber() {
     let s = i + " ";
     if (i != 1) s += "Answers";
     else s += "Answer";
-    document.querySelector('#broj-odgovora').append(s);
+    document.querySelector('#number-of-answers').append(s);
 }
 init();
 document.querySelector('#post-button').onclick = async function(){
