@@ -41,6 +41,9 @@ function addMessageToPage(message) {
 <div class="d-flex fw-wrap pb8 mb16 bb bc-black-075"></div>
 </div>`;
     messagesElement.append(element);
+/*setTimeout(() => {
+element.scrollIntoView({behavior: 'smooth' });
+}, 300)*/
 }
 async function init(){
 const { data: messages, error } = await client
@@ -55,9 +58,18 @@ function addNumberOfAnswers() {
     let s = i + " ";
     if (i != 1) s += "Answers";
     else s += "Answer";
-    document.querySelector('#number-of-answers').append(s);
+    document.querySelector('#number-of-answers').innerHTML = s;
 }
 init();
+client
+  .channel('public:messages')
+  .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'messages' }, message => {
+if(message.new.page == pageNumber){
+addMessageToPage(message.new);
+addNumberOfAnswers();
+}
+  })
+  .subscribe();
 document.querySelector('#post-button').onclick = async function(){
 if(textareaElement.value != ''){
 const { data, error } = await client
