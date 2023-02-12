@@ -1,0 +1,17 @@
+C:\Users\NiD\source\repos\Projekat\Forme\bin\Debug\Forme.exe.config
+C:\Users\NiD\source\repos\Projekat\Forme\bin\Debug\Forme.exe
+C:\Users\NiD\source\repos\Projekat\Forme\bin\Debug\Forme.pdb
+C:\Users\NiD\source\repos\Projekat\Forme\bin\Debug\Baza.dll
+C:\Users\NiD\source\repos\Projekat\Forme\bin\Debug\Sesija.dll
+C:\Users\NiD\source\repos\Projekat\Forme\bin\Debug\Baza.pdb
+C:\Users\NiD\source\repos\Projekat\Forme\bin\Debug\Sesija.pdb
+C:\Users\NiD\source\repos\Projekat\Forme\obj\Debug\Forme.csproj.AssemblyReference.cache
+C:\Users\NiD\source\repos\Projekat\Forme\obj\Debug\Forme.Dodavanje.resources
+C:\Users\NiD\source\repos\Projekat\Forme\obj\Debug\Forme.Form1.resources
+C:\Users\NiD\source\repos\Projekat\Forme\obj\Debug\Forme.Prikazivanje.resources
+C:\Users\NiD\source\repos\Projekat\Forme\obj\Debug\Forme.Properties.Resources.resources
+C:\Users\NiD\source\repos\Projekat\Forme\obj\Debug\Forme.csproj.GenerateResource.cache
+C:\Users\NiD\source\repos\Projekat\Forme\obj\Debug\Forme.csproj.CoreCompileInputs.cache
+C:\Users\NiD\source\repos\Projekat\Forme\obj\Debug\Forme.csproj.CopyComplete
+C:\Users\NiD\source\repos\Projekat\Forme\obj\Debug\Forme.exe
+C:\Users\NiD\source\repos\Projekat\Forme\obj\Debug\Forme.pdb
