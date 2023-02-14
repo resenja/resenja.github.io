@@ -1,9 +1,0 @@
-C:\Users\NiD\source\repos\Projekat\Sesija\bin\Debug\Sesija.dll
-C:\Users\NiD\source\repos\Projekat\Sesija\bin\Debug\Sesija.pdb
-C:\Users\NiD\source\repos\Projekat\Sesija\bin\Debug\Baza.dll
-C:\Users\NiD\source\repos\Projekat\Sesija\bin\Debug\Baza.pdb
-C:\Users\NiD\source\repos\Projekat\Sesija\obj\Debug\Sesija.csproj.AssemblyReference.cache
-C:\Users\NiD\source\repos\Projekat\Sesija\obj\Debug\Sesija.csproj.CoreCompileInputs.cache
-C:\Users\NiD\source\repos\Projekat\Sesija\obj\Debug\Sesija.csproj.CopyComplete
-C:\Users\NiD\source\repos\Projekat\Sesija\obj\Debug\Sesija.dll
-C:\Users\NiD\source\repos\Projekat\Sesija\obj\Debug\Sesija.pdb

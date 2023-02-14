@@ -1,6 +1,0 @@
-C:\Users\NiD\source\repos\Projekat\Baza\bin\Debug\Baza.dll
-C:\Users\NiD\source\repos\Projekat\Baza\bin\Debug\Baza.pdb
-C:\Users\NiD\source\repos\Projekat\Baza\obj\Debug\Baza.csproj.AssemblyReference.cache
-C:\Users\NiD\source\repos\Projekat\Baza\obj\Debug\Baza.csproj.CoreCompileInputs.cache
-C:\Users\NiD\source\repos\Projekat\Baza\obj\Debug\Baza.dll
-C:\Users\NiD\source\repos\Projekat\Baza\obj\Debug\Baza.pdb
